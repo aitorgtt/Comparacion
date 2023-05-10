@@ -1,0 +1,64 @@
+Instancia: TSP 10
+Numero de variables: 100
+
+_____________HIBRIDOS____________
+LeapHybridBQMSampler 
+energy: -9618859.0 
+total time: 8.787952184677124 
+ 
+Kerberos: 
+energy: -9619198.0 
+total time: 45.66494607925415 
+ 
+LOOP: EnergyImpact + QPUSubproblemAutoEmbeddingSampler + Splat: 
+energy: -9617884.0 
+total time: 98.1548171043396 
+ 
+EnergyImpact + QPUSubproblemAutoEmbeddingSampler + Splat: 
+energy: -6727909.0 
+total time: 61.06966733932495 
+ 
+EnergyImpact + QPUSubproblemAutoEmbeddingSampler + Splat: 
+energy: -3848808.0 
+total time: 5.126425266265869 
+ 
+
+
+
+_____________CLASICOS____________
+Full clasical Kerberos: 
+energy: -9619198.0 
+total time: 2.03357195854187 
+ 
+Tabu: 
+energy: -9619154.0 
+total time: 0.10202288627624512 
+ 
+Simulated Annealing: 
+energy: -9616595.0 
+total time: 0.005033016204833984 
+ 
+SteepestDescent: 
+energy: -9616014.0 
+total time: 0.005003452301025391 
+ 
+
+
+
+_____________CUANTICOS____________
+QPUSubproblemAutoEmbeddingSampler: 
+energy: -7687872.0 
+total time: 46.81379246711731 
+ 
+AutoEmbeddingComposite: 
+energy: -8654779.0 
+total time: 109.44462013244629 
+ 
+EmbeddingDWaveSampler: 
+energy: -8655345.0 
+total time: 69.64770007133484 
+ 
+LazyFixedEmbeddingDWaveSampler: 
+energy: -8656751.0 
+total time: 99.60378456115723 
+ 
